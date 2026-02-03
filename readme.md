@@ -6,7 +6,7 @@
 ---
 
 ## 1. Scope
-This document defines the engineering scope, operational requirements, subsystem architecture, and reliability doctrine for the **Systemheda Autonomous Systems Framework (SASF)**.
+This document defines the engineering scope, operational requirements, subsystem architecture, and reliability doctrine for the **Systemheda Autonomous Systems Framework (ASF)**.
 
 The system is intended for deployment in **aerospace**, **defense**, and **high‑reliability industrial** environments.
 
@@ -15,8 +15,8 @@ All engineering designs and ideas presented herein are solely for educational an
 
 ---
 
-## 2. System Purpose
-The SASF provides a unified architecture for:
+## 2. System Purpose for UAV
+The ASF provides a unified architecture for:
 - Autonomous UAV platforms
 - Tactical software infrastructures
 - RF and electronic communication systems
@@ -59,10 +59,17 @@ The system shall remain functional regardless of the above.
 - RF long‑range communication modules
 - Fiber‑optic modem assembly
 - Signal integrity & thermal reliability layer
+### 4.4 Web & Services Subsystem
+
+- WordPress plugin & theme architecture
+- Cloud service integration layer
+- Modular web application frameworks
+- API gateway & management console
+- Containerized deployment pipelines (Docker / Kubernetes)
 
 ---
 
-## 5. Reliability Doctrine
+## 5. Reliability
 The system shall adhere to the following principles:
 
 - **R1 — Modularity:** All subsystems shall be field‑replaceable.
@@ -99,21 +106,21 @@ The system aligns conceptually with:
 
 ---
 
-## 8. TRL Assessment
+## 8. TRL Assessment 
 Subsystems are evaluated using NASA’s **Technology Readiness Level (TRL)** scale.
 
-- Software Architecture: TRL 6
-- UAV Subsystems: TRL 5
-- RF Communication: TRL 5
-- Fiber‑Optic Modem: TRL 4
+- Software Architecture
+- UAV Subsystems
+- RF Communication
+- Fiber‑Optic Modem
 
 ---
 
 ## 9. Contact Channels
-- Email
-- LinkedIn
-- Website
-- Telegram (optional)
+- Email systemheda@gmail.com
+- LinkedIn : 
+- Website : septatronic.ir
+- Telegram : t.me/Receptorz
 
 ---
 
