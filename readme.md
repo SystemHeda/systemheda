@@ -1,7 +1,7 @@
 # Develop > telecommunication/electronic engineering systems
 ### Technical Requirements Specification
 ### Compliance : MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C (Conceptual Alignment)
-### Document Status: Active
+### Developer: Syheda ( Soroush )
 
 ---
 
@@ -9,6 +9,9 @@
 This document defines the engineering scope, operational requirements, subsystem architecture, and reliability doctrine for the **Systemheda Autonomous Systems Framework (SASF)**.
 
 The system is intended for deployment in **aerospace**, **defense**, and **high‑reliability industrial** environments.
+
+All programming projects—whether web‑based or operating system‑level—are provided as proof‑of‑concept prototypes and realized ideas. The end‑user bears full responsibility for securing, properly configuring, and deploying these projects in their own operational environment.
+All engineering designs and ideas presented herein are solely for educational and demonstrative purposes. Any practical application or implementation thereof is entirely at the implementer's own risk and liability.
 
 ---
 
