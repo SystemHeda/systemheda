@@ -1,5 +1,5 @@
-# SYSTEMHEDA — SYSTEM ENGINEERING SPECIFICATION (SES)
-### Document Type: Technical Requirements Specification (TRS)
+# Development of telecommunication/electronic engineering systems
+### Technical Requirements Specification
 ### Compliance Basis: MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C (Conceptual Alignment)
 ### Document Status: Active
 
