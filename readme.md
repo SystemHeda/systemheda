@@ -1,6 +1,6 @@
-# Development of telecommunication/electronic engineering systems
+# Develop > telecommunication/electronic engineering systems
 ### Technical Requirements Specification
-### Compliance Basis: MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C (Conceptual Alignment)
+### Compliance : MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C (Conceptual Alignment)
 ### Document Status: Active
 
 ---
