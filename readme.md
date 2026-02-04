@@ -1,4 +1,7 @@
-# ⚡ SYSTEMHEDA — SYSTEM ENGINEERING SPECIFICATION (SES)
+# ⚡ SYSTEM ENGINEERING SPECIFICATION
+
+🔬 Research‑focused engineering for next‑generation autonomous, communication and cloud systems
+
 ### Technical Requirements Specification  
 ### Compliance: MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C  
 ### Developer: Syheda (Soroush)
