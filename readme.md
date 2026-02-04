@@ -13,6 +13,8 @@ This document defines the engineering scope, operational requirements, subsystem
 
 The system is intended for deployment in **aerospace**, **defense**, and **high‑reliability industrial** environments.
 
+This repository also serves as the **central index and specification hub** for the wider **Systemheda project portfolio**, linking multiple research‑driven software, hardware and cloud systems.
+
 > **Notice:**  
 > All programming projects—whether web‑based or OS‑level—are provided as proof‑of‑concept prototypes.  
 > The end‑user is fully responsible for securing, configuring, and deploying these systems.  
@@ -136,7 +138,50 @@ Subsystem readiness based on NASA TRL scale:
 
 ---
 
-## 📞 9. Contact Channels
+## 🗂️ 9. Systemheda Project Portfolio
+
+This specification repository is the hub for the broader **Systemheda ecosystem**.  
+The following projects form the current portfolio (each as a dedicated repository):
+
+### 🔹 Autonomous & Aerial Systems
+- **SEPTA-Intelligent-UAV-Observer**  
+  Research‑driven architecture for intelligent UAV‑based signal observation and mission‑aware sensing.  
+- **Aerial-Imaging-Intelligence (Shahin-Vision-1)**  
+  Intelligent aerial imaging platform focused on real‑time analysis and structured data extraction.
+
+### 🔹 Communication & Signal Systems
+- **FiberWrt-Optical-Modem**  
+  Experimental optical modem platform based on a customized FiberWrt‑style architecture.  
+- **GNSS-Navigation-Ecosystem**  
+  Research ecosystem around GNSS navigation, signal behavior and multi‑source positioning.  
+- **Secure-DualHost-Linker**  
+  Software bridge for securely linking an internal and external host for a single web property.
+
+### 🔹 Environmental & Analytical Systems
+- **EnviroSoft-Analysis-Suite**  
+  Software toolkit for environmental data analysis, monitoring and reporting workflows.
+
+### 🔹 Cloud & Service Platforms
+- **CloudPrint-Service-Platform**  
+  Cloud print service architecture for cafés and restaurants, integrating order and print workflows.  
+- **CameraStream-Dedicated-Server**  
+  Dedicated server design for managing and routing camera image streams.
+
+### 🔹 Automotive & AI Systems
+- **Evolved-Automotive-Intelligence**  
+  Research into evolutionary and adaptive AI behaviors for future automotive platforms.
+
+### 🔹 Hardware Reliability Research
+- **EMP-Resilient-Computing-Research**  
+  Conceptual and research‑oriented work on improving robustness of computing systems under extreme electromagnetic disturbances.
+
+### 🔹 Maritime Signal Research
+- **Maritime-Signal-Interference-Research**  
+  Non‑operational, research‑focused study of signal interference patterns in maritime environments.
+
+---
+
+## 📞 10. Contact Channels
 - **Email:** systemheda@gmail.com  
 - **Website:** septatronic.ir  
 - **Telegram:** t.me/Receptorz  
