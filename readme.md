@@ -1,16 +1,13 @@
-<div align="center">
 # ⚡ SYSTEM ENGINEERING SPECIFICATION
-### 🔬 Research‑focused engineering for next‑generation autonomous, communication and cloud systems
-![Build Status](https://img.shields.io/badge/Status-Active_Research-blueviolet?style=for-the-badge&logo=gitbook)
-![Compliance](https://img.shields.io/badge/Compliance-MIL--STD--499C_|_NASA--STD--7009_|_DO--178C-red?style=for-the-badge)
-![Developer](https://img.shields.io/badge/Developer-Syheda%20(Soroush)-black?style=for-the-badge&logo=github)
-</div>
+🔬 Research‑focused engineering for next‑generation autonomous, communication and cloud systems
+### Technical Requirements Specification  
+### Compliance: MIL‑STD‑499C • NASA‑STD‑7009 • DO‑178C  
+### Developer: Syheda (Soroush)
 ---
 ## 🛰️ 1. Scope
 This document defines the engineering scope, operational requirements, subsystem architecture, and reliability doctrine for the **Systemheda Autonomous Systems Framework (ASF)**.
 The system is intended for deployment in **aerospace**, **defense**, and **high‑reliability industrial** environments.
 This repository also serves as the **central index and specification hub** for the wider **Systemheda project portfolio**, linking multiple research‑driven software, hardware and cloud systems.
-> [!IMPORTANT]
 > **Notice:** > All programming projects—whether web‑based or OS‑level—are provided as proof‑of‑concept prototypes.  
 > The end‑user is fully responsible for securing, configuring, and deploying these systems.  
 > All engineering concepts are educational and demonstrative; implementation is at the user’s own risk.
@@ -26,15 +23,15 @@ The system must maintain **continuous operational integrity** under mission stre
 ## 🌐 3. Operational Environment
 The system shall operate under:
 
-| 🌦️ Condition | 📊 Expected Level |
+| Condition | Expected Level |
 | :--- | :--- |
-| **RF interference** | 🔴 **High** |
-| **Thermal load** | 🟠 **Elevated** |
-| **Power stability** | 🟡 **Unreliable** |
-| **GPS drift** | 🔵 **Non‑zero** |
-| **Environmental predictability** | ⚪ **Low** |
+| RF interference | **High** |
+| Thermal load | **Elevated** |
+| Power stability | **Unreliable** |
+| GPS drift | **Non‑zero** |
+| Environmental predictability | **Low** |
 
-> **Operational Requirement:** > The system shall remain functional regardless of environmental instability.
+**Operational Requirement:** The system shall remain functional regardless of environmental instability.
 ---
 ## 🧩 4. System Architecture Overview
 ### **4.1 Software Subsystem**
@@ -43,17 +40,20 @@ The system shall operate under:
 - 📈 Real‑time telemetry pipelines  
 - 🛡️ Hardened CI/CD infrastructure  
 - 💻 Command‑interface frontends (React / Next.js)
+---
 ### **4.2 UAV Subsystem**
 - 🕹️ Flight‑controller integration layer  
 - 🔋 Power regulation & distribution module  
 - 📡 Telemetry & command‑link interface  
 - 🔗 Multi‑UAV coordination engine  
 - 📸 Imaging payload controller  
+---
 ### **4.3 RF & Electronic Subsystem**
 - 🎛️ PCB assemblies for noise‑sensitive operation  
 - 📶 RF long‑range communication modules  
 - 🌐 Fiber‑optic modem assembly  
 - 🔥 Signal integrity & thermal reliability layer  
+---
 ### **4.4 Web & Services Subsystem**
 - 🔌 WordPress plugin & theme architecture  
 - ☁️ Cloud service integration layer  
@@ -63,19 +63,18 @@ The system shall operate under:
 ---
 ## 🛡️ 5. Reliability Doctrine
 The system shall adhere to:
-* 📐 **R1 — Modularity:** Field‑replaceable subsystems  
-* 🎯 **R2 — Predictability:** No undefined behavior  
-* 👁️ **R3 — Observability:** Full signal traceability  
-* 🔧 **R4 — Repairability:** Isolated failure domains  
-* 📊 **R5 — Scalability:** Stable performance under load  
-* 🔄 **R6 — Redundancy:** No single‑point‑of‑failure  
-> [!TIP]
+- 📐 **R1 — Modularity:** Field‑replaceable subsystems  
+- 🎯 **R2 — Predictability:** No undefined behavior  
+- 👁️ **R3 — Observability:** Full signal traceability  
+- 🔧 **R4 — Repairability:** Isolated failure domains  
+- 📊 **R5 — Scalability:** Stable performance under load  
+- 🔄 **R6 — Redundancy:** No single‑point‑of‑failure  
 > **Design Axiom:** > *If a component can fail, it will.  
 > The architecture must remain operational.*
 ---
 ## ⚠️ 6. Failure Modes & Mitigation
 
-| 🚨 Failure Mode | 📋 Description | 🛡️ Mitigation |
+| Failure Mode | Description | Mitigation |
 | :--- | :--- | :--- |
 | **FM‑01** | Telemetry loss | Redundancy, fallback logic, isolation boundaries. |
 | **FM‑02** | Power instability | Redundancy, fallback logic, isolation boundaries. |
@@ -86,16 +85,16 @@ The system shall adhere to:
 ---
 ## 📡 7. Compliance Requirements
 Conceptual alignment with:
-* 🎖️ **MIL‑STD‑499C** — Systems Engineering  
-* 🚀 **NASA‑STD‑7009** — Modeling & Simulation  
-* ✈️ **DO‑178C** — Airborne Software Safety  
+- 🎖️ **MIL‑STD‑499C** — Systems Engineering  
+- 🚀 **NASA‑STD‑7009** — Modeling & Simulation  
+- ✈️ **DO‑178C** — Airborne Software Safety  
 ---
 ## 🚀 8. TRL Assessment
 Subsystem readiness based on NASA TRL scale:
-* 💻 Software Architecture  
-* 🛸 UAV Subsystems  
-* 📶 RF Communication  
-* 🌐 Fiber‑Optic Modem  
+- 🧠 Software Architecture  
+- 🛸 UAV Subsystems  
+- 📶 RF Communication  
+- 🌐 Fiber‑Optic Modem  
 *(TRL values depend on implementation stage.)*
 ---
 ## 🗂️ 9. Systemheda Project Portfolio
@@ -121,74 +120,80 @@ The following projects form the current portfolio (each as a dedicated repositor
 - **Maritime-Signal-Interference-Research** Non‑operational, research‑focused study of signal interference patterns in maritime environments.
 ---
 ## 📞 10. Contact Channels
-<div align="center">
-
-| 📬 Channel | 🔗 Contact Link |
-| :--- | :--- |
-| **Email** | [systemheda@gmail.com](mailto:systemheda@gmail.com) |
-| **Website** | [septatronic.ir](https://septatronic.ir) |
-| **Telegram** | [@Receptorz](https://t.me/Receptorz) |
-| **LinkedIn** | _[Add Link Here]_ |
-
-</div>
----
+- 📧 **Email:** systemheda@gmail.com  
+- 🌐 **Website:** septatronic.ir  
+- 💬 **Telegram:** t.me/Receptorz  
+- 💼 **LinkedIn:** ---
 ## 🇮🇷 Persian Description
-<div dir="rtl">
 این مجموعه یک چارچوب مهندسی است که روی توسعه و یکپارچه‌سازی سیستم‌های خودمختار، مخابراتی، نرم‌افزاری و زیرساختی تمرکز دارد.  
 هدف من ساختن فناوری‌هایی است که در شرایط واقعی—از محیط‌های پرچالش گرفته تا شبکه‌های پیچیده—بتوانند عملکردی پایدار، قابل اعتماد و قابل تحلیل ارائه دهند.
-فعالیت‌های من در **Systemheda** چندرشته‌ای است و حوزه‌های زیر را پوشش می‌دهد:
-* 📡 طراحی و توسعه سیستم‌های مخابراتی، تحلیل سیگنال و ارتباطات امن  
-* 🛸 ساخت و یکپارچه‌سازی سیستم‌های رباتیک و خودمختار با رویکرد ایمنی و پایداری  
-* 💻 توسعه نرم‌افزارهای وب، سرویس‌های ابری و معماری‌های مقیاس‌پذیر  
-* 🔒 امنیت شبکه، طراحی زیرساخت و بهینه‌سازی سیستم‌های توزیع‌شده  
-* 🎓 آموزش و توسعه تجهیزات شبکه، مخابرات و فناوری‌های نوظهور  
+فعالیت‌های من در Systemheda چندرشته‌ای است و حوزه‌های زیر را پوشش می‌دهد:
+- 📡 طراحی و توسعه سیستم‌های مخابراتی، تحلیل سیگنال و ارتباطات امن  
+- 🛸 ساخت و یکپارچه‌سازی سیستم‌های رباتیک و خودمختار با رویکرد ایمنی و پایداری  
+- 💻 توسعه نرم‌افزارهای وب، سرویس‌های ابری و معماری‌های مقیاس‌پذیر  
+- 🔒 امنیت شبکه، طراحی زیرساخت و بهینه‌سازی سیستم‌های توزیع‌شده  
+- 🎓 آموزش و توسعه تجهیزات شبکه, مخابرات و فناوری‌های نوظهور  
 > رویکرد من در تمام این پروژه‌ها بشردوستانه، آموزشی و تحقیقاتی است.  
 > هدف از توسعه سیستم‌های مخابراتی یا رباتیک، ایجاد ابزارهای دقیق، قابل اتکا و مفید برای تحلیل، پایش، آموزش و توسعه فناوری است—نه کاربردهای تهاجمی.
 مجموعه من بر پایهٔ این باور شکل گرفته که فناوری باید شفاف، پایدار و قابل فهم باشد؛  
 و هر چالشی—از نویز و تداخل تا بار کاری بالا—باید به یک مسئلهٔ مهندسی قابل حل تبدیل شود، نه یک مانع.
-</div>
 ---
-## 🌐 Other My Repo Links
-<div align="center">
-### 🔗 Quick Access Hub
-
-| 📂 Repository / System | 🌐 Live Page / Mirror |
-| :--- | :--- |
-| **Septa** | [SystemHeda.github.io/Septa](https://SystemHeda.github.io/Septa) |
-| **Main Web** | [systemheda.github.io](https://systemheda.github.io) |
-| **Profile** | [github.com/systemheda](https://github.com/systemheda) |
-| **Systemheda** | [SystemHeda.github.io/systemheda](https://SystemHeda.github.io/systemheda) |
-| **Aerial Imaging Intelligence 1** | [systemheda.github.io/.../Shahin-Vision-1-](https://systemheda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1-) |
-| **Aerial Imaging Intelligence 2** | [SystemHeda.github.io/.../Shahin-Vision-1](https://SystemHeda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1) |
-| **SNSS Navigation** | [SNSS-Navigation-Ecosystem](https://SNSS-Navigation-Ecosystem) |
-| **SNSS Navigation Mirror** | [SystemHeda.github.io/...](https://SystemHeda.github.io/SNSS-Navigation-Ecosystem) |
-| **AutoEvolution AI** | [AutoEvolution-AI](https://AutoEvolution-AI) |
-| **AutoEvolution AI Mirror** | [SystemHeda.github.io/...](https://SystemHeda.github.io/AutoEvolution-AI) |
-| **SEPTA UAV Observer** | [SEPTA-Intelligent-UAV-Observer](https://SEPTA-Intelligent-UAV-Observer) |
-| **SEPTA UAV Observer Mirror** | [SystemHeda.github.io/...](https://SystemHeda.github.io/SEPTA-Intelligent-UAV-Observer) |
-| **Shahin Vision Pro 1** | [Shahin-Vision-Pro-1](https://Shahin-Vision-Pro-1) |
-| **Shahin Vision Pro 1 Mirror** | [SystemHeda.github.io/...](https://SystemHeda.github.io/Shahin-Vision-Pro-1) |
-| **DevTools Kit** | [Systemheda-DevTools-Kit](https://Systemheda-DevTools-Kit) / [Mirror](https://SystemHeda.github.io/Systemheda-DevTools-Kit) |
-| **Design System** | [Systemheda-Design-System](https://Systemheda-Design-System) / [Mirror](https://SystemHeda.github.io/Systemheda-Design-System) |
-| **EMP Hardening Research** | [EMP-Hardening-Research](https://EMP-Hardening-Research) / [Mirror](https://SystemHeda.github.io/EMP-Hardening-Research) |
-| **Situational Intelligence Fabric** | [Global-Situational-Intelligence...](https://SystemHeda.github.io/Global-Situational-Intelligence-Fabric) |
-| **Deployment Blueprints** | [Systemheda-Deployment-Blueprints](https://SystemHeda.github.io/Systemheda-Deployment-Blueprints) |
-| **Testing Framework** | [Systemheda-Testing-Framework](https://SystemHeda.github.io/Systemheda-Testing-Framework) |
-| **Knowledge Graph** | [Systemheda-Knowledge-Graph](https://SystemHeda.github.io/Systemheda-Knowledge-Graph) |
-| **Dashboard** | [Systemheda-Dashboard](https://SystemHeda.github.io/Systemheda-Dashboard) |
-| **CLI Tool** | [Systemheda-CLI](https://SystemHeda.github.io/Systemheda-CLI) |
-| **Data Models** | [Systemheda-Data-Models](https://SystemHeda.github.io/Systemheda-Data-Models) |
-| **Simulation Engine** | [Systemheda-Simulation-Engine](https://SystemHeda.github.io/Systemheda-Simulation-Engine) |
-| **API Gateway** | [Systemheda-API-Gateway](https://SystemHeda.github.io/Systemheda-API-Gateway) |
-| **UI Components Library** | [UI-Components-Library](https://SystemHeda.github.io/UI-Components-Library) |
-| **CamRelay Server** | [CamRelay-Server](https://SystemHeda.github.io/CamRelay-Server) |
-| **Docs Hub** | [Systemheda-Docs-Hub](https://SystemHeda.github.io/Systemheda-Docs-Hub) |
-| **Brand Identity** | [Systemheda-Brand-Identity](https://SystemHeda.github.io/Systemheda-Brand-Identity) |
-| **Secure DualHost Linker** | [Secure-DualHost-Linker](https://SystemHeda.github.io/Secure-DualHost-Linker) |
-| **Research Archive** | [Systemheda-Research-Archive](https://SystemHeda.github.io/Systemheda-Research-Archive) |
-| **FiberWrt Optical Modem** | [FiberWrt-Optical-Modem](https://SystemHeda.github.io/FiberWrt-Optical-Modem) |
-| **Septa CloudPrint Service** | [Septa-CloudPrint-Service](https://SystemHeda.github.io/Septa-CloudPrint-Service) |
-| **EnviroSoft Analysis Suite** | [EnviroSoft-Analysis-Suite](https://SystemHeda.github.io/EnviroSoft-Analysis-Suite) |
-| **Maritime Signal Interference** | [Maritime-Signal-Interference...](https://SystemHeda.github.io/Maritime-Signal-Interference-Research) |
-
-</div>
+## 🌐 Others My Ripo Link
+- [SystemHeda.github.io/Septa](https://SystemHeda.github.io/Septa)
+- [systemheda.github.io](https://systemheda.github.io)
+- [github.com/systemheda](https://github.com/systemheda)
+- [SystemHeda.github.io/systemheda](https://SystemHeda.github.io/systemheda)
+- [systemheda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1-](https://systemheda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1-)
+- [SystemHeda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1](https://SystemHeda.github.io/Aerial-Imaging-Intelligence-Shahin-Vision-1)
+- [SNSS-Navigation-Ecosystem](https://SNSS-Navigation-Ecosystem)
+- [SystemHeda.github.io/SNSS-Navigation-Ecosystem](https://SystemHeda.github.io/SNSS-Navigation-Ecosystem)
+- [AutoEvolution-AI](https://AutoEvolution-AI)
+- [SystemHeda.github.io/AutoEvolution-AI](https://SystemHeda.github.io/AutoEvolution-AI)
+- [SEPTA-Intelligent-UAV-Observer](https://SEPTA-Intelligent-UAV-Observer)
+- [SystemHeda.github.io/SEPTA-Intelligent-UAV-Observer](https://SystemHeda.github.io/SEPTA-Intelligent-UAV-Observer)
+- [Shahin-Vision-Pro-1](https://Shahin-Vision-Pro-1)
+- [SystemHeda.github.io/Shahin-Vision-Pro-1](https://SystemHeda.github.io/Shahin-Vision-Pro-1)
+- [Systemheda-DevTools-Kit](https://Systemheda-DevTools-Kit)
+- [SystemHeda.github.io/Systemheda-DevTools-Kit](https://SystemHeda.github.io/Systemheda-DevTools-Kit)
+- [Systemheda-Design-System](https://Systemheda-Design-System)
+- [SystemHeda.github.io/Systemheda-Design-System](https://SystemHeda.github.io/Systemheda-Design-System)
+- [EMP-Hardening-Research](https://EMP-Hardening-Research)
+- [SystemHeda.github.io/EMP-Hardening-Research](https://SystemHeda.github.io/EMP-Hardening-Research)
+- [Global-Situational-Intelligence-Fabric](https://Global-Situational-Intelligence-Fabric)
+- [SystemHeda.github.io/Global-Situational-Intelligence-Fabric](https://SystemHeda.github.io/Global-Situational-Intelligence-Fabric)
+- [Systemheda-Deployment-Blueprints](https://Systemheda-Deployment-Blueprints)
+- [SystemHeda.github.io/Systemheda-Deployment-Blueprints](https://SystemHeda.github.io/Systemheda-Deployment-Blueprints)
+- [Systemheda-Testing-Framework](https://Systemheda-Testing-Framework)
+- [SystemHeda.github.io/Systemheda-Testing-Framework](https://SystemHeda.github.io/Systemheda-Testing-Framework)
+- [Systemheda-Knowledge-Graph](https://Systemheda-Knowledge-Graph)
+- [SystemHeda.github.io/Systemheda-Knowledge-Graph](https://SystemHeda.github.io/Systemheda-Knowledge-Graph)
+- [Systemheda-Dashboard](https://Systemheda-Dashboard)
+- [SystemHeda.github.io/Systemheda-Dashboard](https://SystemHeda.github.io/Systemheda-Dashboard)
+- [Systemheda-CLI](https://Systemheda-CLI)
+- [SystemHeda.github.io/Systemheda-CLI](https://SystemHeda.github.io/Systemheda-CLI)
+- [Systemheda-Data-Models](https://Systemheda-Data-Models)
+- [SystemHeda.github.io/Systemheda-Data-Models](https://SystemHeda.github.io/Systemheda-Data-Models)
+- [Systemheda-Simulation-Engine](https://Systemheda-Simulation-Engine)
+- [SystemHeda.github.io/Systemheda-Simulation-Engine](https://SystemHeda.github.io/Systemheda-Simulation-Engine)
+- [Systemheda-API-Gateway](https://Systemheda-API-Gateway)
+- [SystemHeda.github.io/Systemheda-API-Gateway](https://SystemHeda.github.io/Systemheda-API-Gateway)
+- [UI-Components-Library](https://UI-Components-Library)
+- [SystemHeda.github.io/UI-Components-Library](https://SystemHeda.github.io/UI-Components-Library)
+- [CamRelay-Server](https://CamRelay-Server)
+- [SystemHeda.github.io/CamRelay-Server](https://SystemHeda.github.io/CamRelay-Server)
+- [Systemheda-Docs-Hub](https://Systemheda-Docs-Hub)
+- [SystemHeda.github.io/Systemheda-Docs-Hub](https://SystemHeda.github.io/Systemheda-Docs-Hub)
+- [Systemheda-Brand-Identity](https://Systemheda-Brand-Identity)
+- [SystemHeda.github.io/Systemheda-Brand-Identity](https://SystemHeda.github.io/Systemheda-Brand-Identity)
+- [Secure-DualHost-Linker](https://Secure-DualHost-Linker)
+- [SystemHeda.github.io/Secure-DualHost-Linker](https://SystemHeda.github.io/Secure-DualHost-Linker)
+- [Systemheda-Research-Archive](https://Systemheda-Research-Archive)
+- [SystemHeda.github.io/Systemheda-Research-Archive](https://SystemHeda.github.io/Systemheda-Research-Archive)
+- [FiberWrt-Optical-Modem](https://FiberWrt-Optical-Modem)
+- [SystemHeda.github.io/FiberWrt-Optical-Modem](https://SystemHeda.github.io/FiberWrt-Optical-Modem)
+- [Septa-CloudPrint-Service](https://Septa-CloudPrint-Service)
+- [SystemHeda.github.io/Septa-CloudPrint-Service](https://SystemHeda.github.io/Septa-CloudPrint-Service)
+- [EnviroSoft-Analysis-Suite](https://EnviroSoft-Analysis-Suite)
+- [SystemHeda.github.io/EnviroSoft-Analysis-Suite](https://SystemHeda.github.io/EnviroSoft-Analysis-Suite)
+- [Maritime-Signal-Interference-Research](https://Maritime-Signal-Interference-Research)
+- [SystemHeda.github.io/Maritime-Signal-Interference-Research](https://SystemHeda.github.io/Maritime-Signal-Interference-Research)
