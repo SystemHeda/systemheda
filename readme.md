@@ -1,10 +1,5 @@
 
 
-<meta name="google-site-verification" content="yqCE_kNrnulTjD73EmV3MjoRidN8SPDg1G_32ZC-JuM" />
-
-<meta name="google-site-verification" content="EElRtENrt8L-ARphZdBRW3EJ4eLf5bKhB-n8U-I54cg" />
-
-
 # ⚡ SYSTEM ENGINEERING SPECIFICATION
 
 🔬 Research‑focused engineering for next‑generation autonomous, communication and cloud systems
